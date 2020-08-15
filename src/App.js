@@ -7,7 +7,7 @@ function App() {
  return (
  <div>
  {
-    <WordCard value="hello"/>
+    <WordCard value="17046"/>
  }
  </div>
  );
