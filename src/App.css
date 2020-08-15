@@ -49,4 +49,21 @@
   color: red;
   background: pink;
  }
- 
+ .unactiveCard {
+  color: #61dafb;
+  background:#282c34;
+ }
+ .container {
+  color: #282c34;
+  size: 60px;
+  height: 100px;
+  background-color: #61dafb;
+  font-family: Arial;
+  text-align: center;
+}
+.buttom {
+  color : pink ;
+  background-color : #a8a832 ;
+  font-size : 16px ;
+  background-size : 100px; 
+}
