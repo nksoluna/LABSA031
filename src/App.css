@@ -71,3 +71,22 @@
    background-color:   white;
    color : black;
  }
+
+ .activationbody {
+   background-color : #0db64e ; 
+   color : #f8fc03 ;
+   -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(8, 1, 1);
+
+ }
+.consoletoscreens
+ {
+  background-color : #db1963 ; 
+  color : #178be9 ;
+  -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: rgb(8, 1, 1);
+
+ }
+ .successorfailed {
+   
+ }
