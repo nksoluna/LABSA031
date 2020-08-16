@@ -59,7 +59,7 @@ export default function WordCard(props){
            
            <div className="consoletoscreens">{consoletoscreens}  </div>
            <div className="activationbody"> คุณได้ทายใจเราไปแล้ว = {state.attempt} ครั้ง</div>
-           <div className = "body"> {activationconsole} </div>
+           <div className = "successorfailed"> {activationconsole} </div>
            </div>
         )
      }

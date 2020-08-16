@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #cad0dd;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -88,5 +88,9 @@
 
  }
  .successorfailed {
-   
+  background-color : #856571 ; 
+  color : #e93017 ;
+  -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: rgb(8, 1, 1);
+
  }
