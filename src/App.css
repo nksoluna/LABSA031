@@ -63,7 +63,11 @@
 }
 .buttom {
   color : pink ;
-  background-color : #a8a832 ;
+  background-color : #5d42f5 ;
   font-size : 16px ;
   background-size : 100px; 
 }
+ .body {
+   background-color:   white;
+   color : black;
+ }
