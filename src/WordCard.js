@@ -9,7 +9,7 @@ const prepareStateFromWord = given_word => {
     return {
         word,
         chars,
-        attempt: 1,
+        attempt: 0,
         guess: '',
         completed: true
         }
@@ -38,6 +38,7 @@ export default function WordCard(props){
         {
         console.log('reset , Please Try Again Later')
         setState({...state, guess: '', attempt: state.attempt + 1})
+
             }
     }
 }
@@ -52,7 +53,9 @@ export default function WordCard(props){
                  )
               }
            </div>
-           <div className="body">{consoletoscreens}</div>
+           
+           <div className="body">{consoletoscreens}   </div>
+           <div className="body"> คุณได้ทายใจเราไปแล้ว = {state.attempt} ครั้ง</div>
         </div>
         )
      }
