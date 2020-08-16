@@ -14,7 +14,7 @@ function App() {
  <div className="unactiveCard">
  {
    
-    <WordCard value="17046"/>
+    <WordCard value="170465"/>
  }
   <h2 className = "buttom">กติกา : ให้ทายตัวเลขที่ปรากฏอยู่บนหน้าจอ หากสามารถทายถูก จะมีคอนโซลแสดงความยินดีโผล่ออกมา ขอให้โชคดี
 
